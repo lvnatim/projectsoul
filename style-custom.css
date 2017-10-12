@@ -1,0 +1,46 @@
+/* Base */
+
+/* Layout */
+.l-container{
+    margin: 0 auto;
+    max-width: 290px;
+    padding: 3em 0;}
+@media(min-width:375px){
+    .l-container{
+        max-width: 345px;}}
+
+/* Modules */
+
+.m-overlap > img{
+    margin-top: -5em;
+    margin-bottom: -3.5em;
+}
+
+/* Theme */
+
+.theme-dark{
+    background-color: black;
+    color: white;}
+
+.theme-light{
+    background-color: white;
+    color: black;}
+
+.text-close > p {
+    margin: 0.1rem 0 0.1rem 0 ;
+
+}
+
+.m-overlay{
+    position: relative;
+}
+
+.m-overlay::after{
+    background-color: yellow;
+    content: "";
+    opacity: 0.5;
+    position: absolute;
+        top: 0;
+    height: 100%;
+    width: 100%;
+}
